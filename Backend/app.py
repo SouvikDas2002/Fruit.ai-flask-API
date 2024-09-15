@@ -12,4 +12,4 @@ mongo = PyMongo(app)
 init_routes(app, mongo)
 
 if __name__ == '__main__':
-    app.run(debug=True)  # This line is for local development; Waitress will replace this in production
+    app.run(debug=True)
